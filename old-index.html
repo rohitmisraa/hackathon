@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Hackathon</title>
+</head>
+<body>
+      <!-- Navbar -->
+      <nav class="bg-indigo-800 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold text-white">Hackathon 2024</a>
+                </div>
+                <div class="hidden sm:flex sm:space-x-6">
+                    <a href="#" class="text-white hover:text-pink-400 text-lg font-medium">Home</a>
+                    <a href="#" class="text-white hover:text-pink-400 text-lg font-medium">About</a>
+                    <a href="#" class="text-white hover:text-pink-400 text-lg font-medium">Challenges</a>
+                    <a href="#" class="text-white hover:text-pink-400 text-lg font-medium">Sponsors</a>
+                    <a href="#" class="text-white hover:text-pink-400 text-lg font-medium">Contact</a>
+                </div>
+                <div class="flex sm:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden sm:hidden">
+            <a href="#" class="block px-4 py-2 text-base font-medium text-white hover:text-pink-400">Home</a>
+            <a href="#" class="block px-4 py-2 text-base font-medium text-white hover:text-pink-400">About</a>
+            <a href="#" class="block px-4 py-2 text-base font-medium text-white hover:text-pink-400">Challenges</a>
+            <a href="#" class="block px-4 py-2 text-base font-medium text-white hover:text-pink-400">Sponsors</a>
+            <a href="#" class="block px-4 py-2 text-base font-medium text-white hover:text-pink-400">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-indigo-700 via-pink-600 to-pink-500 opacity-80"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center justify-center h-screen text-center">
+                <h1 class="text-5xl font-extrabold sm:text-6xl md:text-7xl">
+                    <span class="block">Welcome to the</span>
+                    <span class="block text-yellow-300">Ultimate Hackathon 2024</span>
+                </h1>
+                <p class="mt-4 max-w-xl text-lg sm:text-xl md:text-2xl">Innovate, collaborate, and challenge yourself to create the future. Are you ready to make your mark?</p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#" class="px-8 py-3 border border-transparent text-lg font-medium rounded-md bg-yellow-400 text-gray-900 hover:bg-yellow-500">Join Now</a>
+                    <a href="#" class="px-8 py-3 border border-transparent text-lg font-medium rounded-md bg-white text-gray-900 hover:bg-gray-200">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- New Floating Elements -->
+        <!-- <div class="absolute inset-0 flex items-center justify-center space-x-4">
+            <div class="absolute transform translate-y-12 translate-x-12">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="h-16 w-16 md:h-20 md:w-20 opacity-80 animate-bounce">
+            </div>
+            <div class="absolute transform -translate-y-24 -translate-x-24">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="h-16 w-16 md:h-20 md:w-20 opacity-80 animate-bounce">
+            </div>
+            <div class="absolute transform -translate-y-12 translate-x-36">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="h-16 w-16 md:h-20 md:w-20 opacity-80 animate-bounce">
+            </div>
+        </div> -->
+        <div class="absolute bottom-0 left-0 w-full text-center py-6 text-gray-300">
+            <span>Scroll Down</span>
+            <svg class="mx-auto mt-2 h-6 w-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Themes & Tracks Section -->
+<section class="bg-white text-gray-900 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-extrabold text-indigo-800">Themes & Tracks</h2>
+            <p class="mt-4 text-lg sm:text-xl text-gray-600">Choose a theme that resonates with your passion and skills. Each theme is crafted to spark creativity and inspire impactful solutions.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Theme 1: Cyber Tech -->
+            <div class="bg-gray-100 rounded-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <div class="mb-6">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cybersecurity/cybersecurity-original.svg" alt="Cyber Tech" class="h-12 w-12 mx-auto">
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-indigo-800">Cyber Tech</h3>
+                <p class="text-gray-600">Focus on cybersecurity, ethical hacking, and digital privacy. Develop solutions to protect against cyber threats and enhance online security.</p>
+            </div>
+            <!-- Theme 2: Environmental -->
+            <div class="bg-gray-100 rounded-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <div class="mb-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927323.png" alt="Environmental" class="h-12 w-12 mx-auto">
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-indigo-800">Environmental</h3>
+                <p class="text-gray-600">Create solutions that address climate change, sustainability, and environmental conservation. Innovate to protect and preserve our planet.</p>
+            </div>
+            <!-- Theme 3: Agriculture -->
+            <div class="bg-gray-100 rounded-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <div class="mb-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927335.png" alt="Agriculture" class="h-12 w-12 mx-auto">
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-indigo-800">Agriculture</h3>
+                <p class="text-gray-600">Focus on sustainable farming, agrotech innovations, and food security. Develop technologies to support farmers and improve agricultural practices.</p>
+            </div>
+            <!-- Theme 4: Buildings & Architecture -->
+            <div class="bg-gray-100 rounded-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <div class="mb-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927342.png" alt="Buildings and Architecture" class="h-12 w-12 mx-auto">
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-indigo-800">Buildings & Architecture</h3>
+                <p class="text-gray-600">Innovate in urban planning, smart cities, and sustainable architecture. Design solutions that shape the future of our built environment.</p>
+            </div>
+            <!-- Theme 5: Healthcare Innovation -->
+            <div class="bg-gray-100 rounded-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <div class="mb-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927348.png" alt="Healthcare Innovation" class="h-12 w-12 mx-auto">
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-indigo-800">Healthcare Innovation</h3>
+                <p class="text-gray-600">Develop cutting-edge solutions in healthcare, focusing on telemedicine, medical devices, and patient care technologies.</p>
+            </div>
+            <!-- Theme 6: Education Technology -->
+            <div class="bg-gray-100 rounded-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <div class="mb-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927354.png" alt="Education Technology" class="h-12 w-12 mx-auto">
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-indigo-800">Education Technology</h3>
+                <p class="text-gray-600">Revolutionize education with innovative tools, platforms, and content delivery methods that enhance learning experiences.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About the Hackathon Section -->
+<section class="bg-gray-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Hackathon Overview -->
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-extrabold text-indigo-800">About the Hackathon</h2>
+            <p class="mt-4 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">Welcome to our annual hackathon, where innovation meets collaboration! This event brings together bright minds to tackle real-world problems with cutting-edge technology. Over 48 hours, participants will form teams, choose from diverse themes, and build solutions that make a difference. Whether you’re a tech enthusiast, a creative thinker, or a problem solver, join us to challenge yourself and showcase your skills.</p>
+        </div>
+
+        <!-- Hackathon Details -->
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-8">Event Details</h3>
+            <div class="bg-white shadow-lg rounded-lg p-8 max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="text-left">
+                        <h4 class="text-2xl font-semibold text-indigo-800">Date & Time</h4>
+                        <p class="text-gray-600 mt-2">October 15-17, 2024</p>
+                        <p class="text-gray-600">Start: 9:00 AM, October 15</p>
+                        <p class="text-gray-600">End: 5:00 PM, October 17</p>
+                    </div>
+                    <div class="text-left">
+                        <h4 class="text-2xl font-semibold text-indigo-800">Location</h4>
+                        <p class="text-gray-600 mt-2">XYZ University, Main Campus</p>
+                        <p class="text-gray-600">123 University Ave, City, State</p>
+                    </div>
+                    <div class="text-left">
+                        <h4 class="text-2xl font-semibold text-indigo-800">Registration Fee</h4>
+                        <p class="text-gray-600 mt-2">Free for all participants</p>
+                    </div>
+                    <div class="text-left">
+                        <h4 class="text-2xl font-semibold text-indigo-800">Prizes</h4>
+                        <p class="text-gray-600 mt-2">1st Place: ₹5,000</p>
+                        <p class="text-gray-600">2nd Place: ₹3,000</p>
+                        <p class="text-gray-600">3rd Place: ₹1,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Organizers Section -->
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-8">Meet the Organizers</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Organizer 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div class="mb-6">
+                        <img src="https://via.placeholder.com/150" alt="Alex Johnson" class="h-24 w-24 rounded-full mx-auto">
+                    </div>
+                    <h4 class="text-2xl font-bold text-indigo-800">Mr. Kshitij Jain</h4>
+                    <p class="text-gray-600 mt-2">Lead Organizer</p>
+                </div>
+                <!-- Organizer 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div class="mb-6">
+                        <img src="https://via.placeholder.com/150" alt="Samantha Lee" class="h-24 w-24 rounded-full mx-auto">
+                    </div>
+                    <h4 class="text-2xl font-bold text-indigo-800">Mr. Prakhar Goel</h4>
+                    <p class="text-gray-600 mt-2">Co-Organizer & Mentor</p>
+                </div>
+                <!-- Organizer 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div class="mb-6">
+                        <img src="https://via.placeholder.com/150" alt="Michael Brown" class="h-24 w-24 rounded-full mx-auto">
+                    </div>
+                    <h4 class="text-2xl font-bold text-indigo-800">Ms. Divya Negi</h4>
+                    <p class="text-gray-600 mt-2">Assistant Professor</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div class="mb-6">
+                        <img src="https://via.placeholder.com/150" alt="Michael Brown" class="h-24 w-24 rounded-full mx-auto">
+                    </div>
+                    <h4 class="text-2xl font-bold text-indigo-800">Mr. Anuj Singh Rajput</h4>
+                    <p class="text-gray-600 mt-2">Assistant Professor</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-8">Event Cordinators</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12">
+                <!-- Organizer 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div class="mb-6">
+                        <img src="https://via.placeholder.com/150" alt="Alex Johnson" class="h-24 w-24 rounded-full mx-auto">
+                    </div>
+                    <h4 class="text-2xl font-bold text-indigo-800">Rohit Mishra</h4>
+                    <p class="text-gray-600 mt-2">Webmaster</p>
+                </div>
+                <!-- Organizer 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div class="mb-6">
+                        <img src="https://via.placeholder.com/150" alt="Samantha Lee" class="h-24 w-24 rounded-full mx-auto">
+                    </div>
+                    <h4 class="text-2xl font-bold text-indigo-800">Amrit</h4>
+                    <p class="text-gray-600 mt-2">Student</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Payment Section -->
+<section class="bg-gray-50 py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-5xl font-extrabold text-indigo-800 text-center mb-12">Make a Payment</h2>
+        
+        <div class="bg-white shadow-xl rounded-lg p-8 flex flex-col items-center">
+            <p class="text-lg sm:text-xl text-gray-600 mb-12 text-center">You can make your payment using UPI. Simply scan the QR code below with your UPI app or follow the instructions provided in the image.</p>
+            
+            <!-- QR Code Image -->
+            <div class="mb-12">
+                <img src="/assets/payment-qr.jpeg" alt="UPI QR Code" class="w-full max-w-sm md:max-w-md lg:max-w-lg object-contain">
+            </div>
+
+            
+
+            <!-- Payment Confirmation Info -->
+            <div class="mt-12 text-center">
+                <h3 class="text-3xl font-semibold text-indigo-800 mb-4">Payment Confirmation</h3>
+                <p class="text-gray-600">After completing the payment, please keep a screenshot of the transaction for your records. If you face any issues, feel free to contact us.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Contact Us Section -->
+<section class="bg-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Contact Info -->
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-extrabold text-indigo-800">Contact Us</h2>
+            <p class="mt-4 text-lg sm:text-xl text-gray-600">We’d love to hear from you! Whether you have questions, need more information, or just want to get in touch, feel free to reach out to us. Our team is here to assist you.</p>
+        </div>
+
+        <!-- Google Form Embed -->
+        <div class="max-w-4xl mx-auto bg-gray-100 p-8 rounded-lg shadow-lg">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-8 text-center">Send Us a Message</h3>
+            <!-- Embed Google Form -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemmvaDWc8IqzX07ZSwEQW-c-d9AZGdnCs04yjaxin3SQzeDw/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div><iframe src="" width="640" height="777" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row justify-between items-center">
+            <!-- Footer Logo and Info -->
+            <div class="text-center sm:text-left mb-4 sm:mb-0">
+                <h4 class="text-xl font-bold">Hackathon 2024</h4>
+                <p class="text-gray-400 mt-1">Innovate. Collaborate. Create.</p>
+            </div>
+            <!-- Footer Links -->
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#about" class="text-gray-300 hover:text-white">About</a>
+                <a href="#themes" class="text-gray-300 hover:text-white">Themes</a>
+                <a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
+                <a href="#faq" class="text-gray-300 hover:text-white">FAQ</a>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center mt-6">
+            <p class="text-gray-400 text-sm">&copy; 2024 Hackathon 2024. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            var menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
