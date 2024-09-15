@@ -63,7 +63,7 @@
                         <thead class="text-xs text-gray-100 uppercase">
                             <tr>
                                 <th scope="col" class="px-6 py-3">
-                                    S. NO.
+                                    PS Num
                                 </th>
                                 <th scope="col" class="px-6 py-3">
                                     Problem Statement Title
@@ -72,288 +72,910 @@
                                     Description
                                 </th>
                                 <th scope="col" class="px-6 py-3">
-                                    PS Number
-                                </th>
-                                <th scope="col" class="px-6 py-3">
                                     Theme
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    1
+                            <tr id="ps01" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps01')">
+                                <td class="px-6 py-4 sno">
+                                    HV01
                                 </td>
-                                
-                                <td class="px-6 py-4">
+
+                                <td class="px-6 py-4 title">
                                     Development of a Geolocation-Based Attendance Tracking Mobile Application.
                                 </td>
-                                <td
-                                    class="px-6 py-4">
-                                    Description: A mobile application needs to be developed to streamline and automate the attendance tracking of its employees across multiple office locations. This application will leverage geolocation technology to record employee check-in and check-out times along with geo-location as they enter and leave the office premises. Aim of this App is to enhance operational efficiency, reduce manual attendance tracking errors, and provide a seamless experience for employees to manage their work-related movements. Key Requirements: 1) Geolocation-Based Check-In and Check-Out: Automatically record check-in time and geo-location when an employee enters within a 200-meter radius of his office. Record check-out time when the employee leaves the 200-meter radius. Ensure that each check-in is paired with a corresponding check-out, regardless of the frequency of entries and exits. 2) Manual Location Check-In / Check-Out for Offsite Work: Provide a manual check-in and check-out feature for employees working at locations other than his offices. Automatically suggest relevant locations based on real-time longitude and latitude data, allowing employees to confirm their check-in and check-out at these suggested locations. 3) Calculate the employees total working hours. 4) Data Accuracy and Integrity: Ensure the application maintains accurate and tamper-proof records of all check-in and check-out events. Enable real-time data synchronization and secure storage to prevent data loss and ensure reliability. Youtube Link/Video Link (3 Minute video explaining the Problem Statement): https://youtu.be/bmw8unoxA7U NOTE : GAIL (INDIA) LTD will not provide any hardware, software, license, data or any other resource to SIH hackathon Teams. The teams should use free and/or open-source resources, as applicable, for the entire project.
+                                <td class="px-6 py-4 desc ">
+                                    <div class="h-36 overflow-hidden">
+                                        Description: A mobile application needs to be developed to streamline and
+                                        automate
+                                        the attendance tracking of its employees across multiple office locations. This
+                                        application will leverage geolocation technology to record employee check-in and
+                                        check-out times along with geo-location as they enter and leave the office
+                                        premises.
+                                        Aim of this App is to enhance operational efficiency, reduce manual attendance
+                                        tracking errors, and provide a seamless experience for employees to manage their
+                                        work-related movements. Key Requirements: 1) Geolocation-Based Check-In and
+                                        Check-Out: Automatically record check-in time and geo-location when an employee
+                                        enters within a 200-meter radius of his office. Record check-out time when the
+                                        employee leaves the 200-meter radius. Ensure that each check-in is paired with a
+                                        corresponding check-out, regardless of the frequency of entries and exits. 2)
+                                        Manual
+                                        Location Check-In / Check-Out for Offsite Work: Provide a manual check-in and
+                                        check-out feature for employees working at locations other than his offices.
+                                        Automatically suggest relevant locations based on real-time longitude and
+                                        latitude
+                                        data, allowing employees to confirm their check-in and check-out at these
+                                        suggested
+                                        locations. 3) Calculate the employees total working hours. 4) Data Accuracy and
+                                        Integrity: Ensure the application maintains accurate and tamper-proof records of
+                                        all
+                                        check-in and check-out events. Enable real-time data synchronization and secure
+                                        storage to prevent data loss and ensure reliability. Youtube Link/Video Link (3
+                                        Minute video explaining the Problem Statement): https://youtu.be/bmw8unoxA7U
+                                        NOTE :
+                                        GAIL (INDIA) LTD will not provide any hardware, software, license, data or any
+                                        other
+                                        resource to SIH hackathon Teams. The teams should use free and/or open-source
+                                        resources, as applicable, for the entire project.
+                                    </div>
+
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1707
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Miscellaneous
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    2
+                            <tr id="ps02" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps02')">
+                                <td class="px-6 py-4 sno">
+                                    HV02
                                 </td>
-                                <td class="px-6 py-4">
-                                    Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
+                                <td class="px-6 py-4 title">
+                                    Create a Virtual Herbal Garden that provides an interactive, educational, and
+                                    immersive experience to users, showcasing the diverse range of medicinal plants used
+                                    in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
                                 </td>
-                                <td
-                                    class="px-6 py-4">
-                                    Background: The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. However, physical gardens that are not accessible to everyone. A Virtual Herbal Garden will bridge this gap by offering a digital platform where users can explore, learn, and understand the significance of various medicinal plants from the comfort of their homes. Description: Participants are tasked with developing a Virtual Herbal Garden that is engaging, informative, and user-friendly. This virtual garden should include: Interactive 3D Models: Realistic 3D models of medicinal plants that users can rotate, zoom, and explore from different angles. Detailed Information: Comprehensive details about each plant, including its botanical name, common names, habitat, medicinal uses, and methods of cultivation. Multimedia Integration: High-quality images, videos, and audio descriptions to enhance the learning experience. Search and Filter Options: Advanced search functionality to easily locate specific plants and filter them based on various criteria like medicinal uses, region, and type. Virtual Tours: Guided virtual tours highlighting specific themes, such as plants for digestive health, immunity, skin care, etc. User Interaction: Features that allow users to bookmark favourite plants, take notes, and share information on social media. Expected Outcome: The expected outcome is a comprehensive Virtual Herbal Garden that serves as a valuable educational tool for students, practitioners, and enthusiasts of the AYUSH sector. This platform should make the knowledge of medicinal plants accessible to a wider audience, promoting awareness and understanding of traditional herbal practices. It should be visually appealing, informative, and interactive, providing users with an immersive experience that combines technology with traditional knowledge.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: The AYUSH sector relies heavily on medicinal plants and herbs, which
+                                        form the backbone of traditional healing practices. However, physical gardens
+                                        that
+                                        are not accessible to everyone. A Virtual Herbal Garden will bridge this gap by
+                                        offering a digital platform where users can explore, learn, and understand the
+                                        significance of various medicinal plants from the comfort of their homes.
+                                        Description: Participants are tasked with developing a Virtual Herbal Garden
+                                        that is
+                                        engaging, informative, and user-friendly. This virtual garden should include:
+                                        Interactive 3D Models: Realistic 3D models of medicinal plants that users can
+                                        rotate, zoom, and explore from different angles. Detailed Information:
+                                        Comprehensive
+                                        details about each plant, including its botanical name, common names, habitat,
+                                        medicinal uses, and methods of cultivation. Multimedia Integration: High-quality
+                                        images, videos, and audio descriptions to enhance the learning experience.
+                                        Search
+                                        and Filter Options: Advanced search functionality to easily locate specific
+                                        plants
+                                        and filter them based on various criteria like medicinal uses, region, and type.
+                                        Virtual Tours: Guided virtual tours highlighting specific themes, such as plants
+                                        for
+                                        digestive health, immunity, skin care, etc. User Interaction: Features that
+                                        allow
+                                        users to bookmark favourite plants, take notes, and share information on social
+                                        media. Expected Outcome: The expected outcome is a comprehensive Virtual Herbal
+                                        Garden that serves as a valuable educational tool for students, practitioners,
+                                        and
+                                        enthusiasts of the AYUSH sector. This platform should make the knowledge of
+                                        medicinal plants accessible to a wider audience, promoting awareness and
+                                        understanding of traditional herbal practices. It should be visually appealing,
+                                        informative, and interactive, providing users with an immersive experience that
+                                        combines technology with traditional knowledge.
+                                    </div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1555
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     MedTech / BioTech / HealthTech
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    3
+                            <tr id="ps03" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps03')">
+                                <td class="px-6 py-4 sno">
+                                    HV03
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">
-                                    Disaster Management includes ideas related to risk mitigation and Planning before,after or Duration of Disaster.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Disaster Management includes ideas related to risk mitigation and Planning
+                                        before,after or Duration of Disaster.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1587
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Disaster Management
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    4
+                            <tr id="ps04" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps04')">
+                                <td class="px-6 py-4 sno">
+                                    HV04
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">	
-	                                Challenges your creative minds to conceptualize and develop unique toys & games.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Challenges your creative minds to conceptualize and develop unique toys & games.
+                                    </div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1541
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Toys & Games
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    5
+                            <tr id="ps05" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps05')">
+                                <td class="px-6 py-4 sno">
+                                    HV05
                                 </td>
-                                <td
-                                    class="px-6 py-4">
-                                    Developing a tool to provide for real time feeds of cyber incident pertaining to Indian Cyber Space.
+                                <td class="px-6 py-4 title">
+                                    Developing a tool to provide for real time feeds of cyber incident pertaining to
+                                    Indian Cyber Space.
                                 </td>
-                                <td class="px-6 py-4">
-                                    Background: NCIIPC shares detail of cyber incidents to corresponding stakeholders in order to inform them about cyber activities related to their IT/OT infrastructure. This empowers them to take necessary actions to mitigate further risk. Description: In order to achieve objective of protecting Critical Information Infrastructure (CIIs) of the Nation, it is very vital to have real time information related to cyber threats and incidents specific to Indian Cyber space. This may enhance the Threat Assessment potential based on the incidents that have already happened or the ones that currently exists. Therefore, a framework to crawl/scrap/collect the cyber incident activities reported anywhere on the web related to Indian cyber space is required to be developed. Expected Solution: 1. Using Machine Learning, find platforms that publish or works as intermediate platform for sharing cyber incident activities related to cyber incidents. 2. Design a model framework for the cyber incidents feed generator which collects data from various forums, paste sites, social media, developer or any other platforms as identified by Machine learning model generated in accordance to point 1 above. 3. Creation of well-structured database of cyber incidents extracted by framework developed in accordance with point 2 above. 4. Generation of valuable insights from the data collected and its visual representation of cyber incidents specific to sectors, APTs and strategic issues. Note: Students are encouraged not to use paid APIs for solving the problem.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: NCIIPC shares detail of cyber incidents to corresponding
+                                        stakeholders in
+                                        order to inform them about cyber activities related to their IT/OT
+                                        infrastructure.
+                                        This empowers them to take necessary actions to mitigate further risk.
+                                        Description:
+                                        In order to achieve objective of protecting Critical Information Infrastructure
+                                        (CIIs) of the Nation, it is very vital to have real time information related to
+                                        cyber threats and incidents specific to Indian Cyber space. This may enhance the
+                                        Threat Assessment potential based on the incidents that have already happened or
+                                        the
+                                        ones that currently exists. Therefore, a framework to crawl/scrap/collect the
+                                        cyber
+                                        incident activities reported anywhere on the web related to Indian cyber space
+                                        is
+                                        required to be developed. Expected Solution: 1. Using Machine Learning, find
+                                        platforms that publish or works as intermediate platform for sharing cyber
+                                        incident
+                                        activities related to cyber incidents. 2. Design a model framework for the cyber
+                                        incidents feed generator which collects data from various forums, paste sites,
+                                        social media, developer or any other platforms as identified by Machine learning
+                                        model generated in accordance to point 1 above. 3. Creation of well-structured
+                                        database of cyber incidents extracted by framework developed in accordance with
+                                        point 2 above. 4. Generation of valuable insights from the data collected and
+                                        its
+                                        visual representation of cyber incidents specific to sectors, APTs and strategic
+                                        issues. Note: Students are encouraged not to use paid APIs for solving the
+                                        problem.
+                                    </div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1677
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Blockchain & Cybersecurity
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    6
+                            <tr id="ps06" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps06')">
+                                <td class="px-6 py-4 sno">
+                                    HV06
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">
-                                    Ideas that can boost fitness activities and assist in keeping fit.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Ideas that can boost fitness activities and assist in keeping fit.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1539
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Fitness & Sports
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    7
+                            <tr id="ps07" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps07')">
+                                <td class="px-6 py-4 sno">
+                                    HV07
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Automated Bus Scheduling and Route Management System for Delhi Transport Corporation
                                 </td>
-                                <td class="px-6 py-4">
-                                    Background: Efficient bus scheduling and route planning are essential for the smooth operation of public bus transport services. Currently, the Delhi Transport Corporation (DTC) relies on manual methods for scheduling and planning, which are time-consuming and resource-intensive. To improve operational efficiency, reduce errors, and enhance service reliability, DTC needs an automated software solution capable of handling both linked and unlinked duty scheduling. Additionally, the solution should facilitate route management by mapping all existing routes and highlighting overlaps with proposed new routes. This project aims to develop a comprehensive software solution to streamline bus scheduling, optimize resource utilization, and improve route planning. Detailed Description: The Automated Bus Scheduling and Route Management System will utilize lgorithms, data analytics, and geographic information system (GIS) technologies to automate various aspects of bus scheduling and route management. The system will potentially include (but not limited to) features such as: Linked Duty Scheduling: Assign a specific crew to a bus at the start of their duty, ensuring they remain with the bus throughout their shift. Provide tools to manage and monitor crew and bus assignments for better familiarity and accountability. Unlinked Duty Scheduling: Allow crews to hand over buses to other crew members after assigned completing their trips. Manage rest periods for crew menbers and after their reassign them to different buses rest period. Route Management: Map all existing routes and provide a visual representation of the bus network. Enable users to draw new routes and automatically highlight overlaps with existing routes. Optimize route planning to reduce congestion and improve service coverage. Expected Output: A fully functional prototype of the Automated Bus Scheduling and Route Management System demonstrating the above features through the integration of algorithms, data analytics, and GIS technologies. The system will offer a user-friendly interface for schedulers, planners, and managers to interact with the system, manage schedules, plan routes, and access real-time data and reports.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Efficient bus scheduling and route planning are essential for the
+                                        smooth
+                                        operation of public bus transport services. Currently, the Delhi Transport
+                                        Corporation (DTC) relies on manual methods for scheduling and planning, which
+                                        are
+                                        time-consuming and resource-intensive. To improve operational efficiency, reduce
+                                        errors, and enhance service reliability, DTC needs an automated software
+                                        solution
+                                        capable of handling both linked and unlinked duty scheduling. Additionally, the
+                                        solution should facilitate route management by mapping all existing routes and
+                                        highlighting overlaps with proposed new routes. This project aims to develop a
+                                        comprehensive software solution to streamline bus scheduling, optimize resource
+                                        utilization, and improve route planning. Detailed Description: The Automated Bus
+                                        Scheduling and Route Management System will utilize lgorithms, data analytics,
+                                        and
+                                        geographic information system (GIS) technologies to automate various aspects of
+                                        bus
+                                        scheduling and route management. The system will potentially include (but not
+                                        limited to) features such as: Linked Duty Scheduling: Assign a specific crew to
+                                        a
+                                        bus at the start of their duty, ensuring they remain with the bus throughout
+                                        their
+                                        shift. Provide tools to manage and monitor crew and bus assignments for better
+                                        familiarity and accountability. Unlinked Duty Scheduling: Allow crews to hand
+                                        over
+                                        buses to other crew members after assigned completing their trips. Manage rest
+                                        periods for crew menbers and after their reassign them to different buses rest
+                                        period. Route Management: Map all existing routes and provide a visual
+                                        representation of the bus network. Enable users to draw new routes and
+                                        automatically
+                                        highlight overlaps with existing routes. Optimize route planning to reduce
+                                        congestion and improve service coverage. Expected Output: A fully functional
+                                        prototype of the Automated Bus Scheduling and Route Management System
+                                        demonstrating
+                                        the above features through the integration of algorithms, data analytics, and
+                                        GIS
+                                        technologies. The system will offer a user-friendly interface for schedulers,
+                                        planners, and managers to interact with the system, manage schedules, plan
+                                        routes,
+                                        and access real-time data and reports.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1612
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Smart Vehicles
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    8
+                            <tr id="ps08" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps08')">
+                                <td class="px-6 py-4 sno">
+                                    HV08
                                 </td>
-                                <td
-                                    class="px-6 py-4">
-                                    Developing innovative solution for efficient management of waste and conversion to valuable products, Waste to Energy- waste recycling
+                                <td class="px-6 py-4 title">
+                                    Developing innovative solution for efficient management of waste and conversion to
+                                    valuable products, Waste to Energy- waste recycling
                                 </td>
-                                <td class="px-6 py-4">
-                                    Background: Management of solid waste has been one of the key problem in most of the cities around the world. The failure is evident from burgeoning growth of landfill site into mountain of MSW. Waste management accounts for a comparatively very high share of national GHG emissions in several countries worldwide. Emissions of methane following the disposal of waste in landfill account for a large share of GHG emissions from waste management. Description: With increasing pressure of development and urbanization, the need for efficient municipal service delivery is also growing rapidly, which the municipal bodies are very often unable to cope with. This is true in case of solid waste disposal and management as well. The main objectives of solid waste management are to reduce the amount of waste that ends up in landfills, promote recycling, and minimize the negative effects of waste on the environment and human health Expected Solution: Developing Community based solution for collection and recycling of solid waste management for developing into Net Zero waste communities. Digital solution for tracking the waste generation to waste recycling giving the effective tracking mechanism to utilities to collect, account and manage waste. Developing local solution for recycling of waste by Torrefaction of Municipal Solid Waste (MSW) Pellets converting it into valuable product to get bioenergy Innovative solution for waste management to reduce LFG and Collecting and Treating Landfill Gas (LFG) and used as a renewable energy resource
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Management of solid waste has been one of the key problem in most of
+                                        the
+                                        cities around the world. The failure is evident from burgeoning growth of
+                                        landfill
+                                        site into mountain of MSW. Waste management accounts for a comparatively very
+                                        high
+                                        share of national GHG emissions in several countries worldwide. Emissions of
+                                        methane
+                                        following the disposal of waste in landfill account for a large share of GHG
+                                        emissions from waste management. Description: With increasing pressure of
+                                        development and urbanization, the need for efficient municipal service delivery
+                                        is
+                                        also growing rapidly, which the municipal bodies are very often unable to cope
+                                        with.
+                                        This is true in case of solid waste disposal and management as well. The main
+                                        objectives of solid waste management are to reduce the amount of waste that ends
+                                        up
+                                        in landfills, promote recycling, and minimize the negative effects of waste on
+                                        the
+                                        environment and human health Expected Solution: Developing Community based
+                                        solution
+                                        for collection and recycling of solid waste management for developing into Net
+                                        Zero
+                                        waste communities. Digital solution for tracking the waste generation to waste
+                                        recycling giving the effective tracking mechanism to utilities to collect,
+                                        account
+                                        and manage waste. Developing local solution for recycling of waste by
+                                        Torrefaction
+                                        of Municipal Solid Waste (MSW) Pellets converting it into valuable product to
+                                        get
+                                        bioenergy Innovative solution for waste management to reduce LFG and Collecting
+                                        and
+                                        Treating Landfill Gas (LFG) and used as a renewable energy resource</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1575
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Clean & Green Technology
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    9
+                            <tr id="ps09" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps09')">
+                                <td class="px-6 py-4 sno">
+                                    HV09
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Agent-less Windows System Vulnerability and Network Scanner
                                 </td>
-                                <td class="px-6 py-4">
-                                    Background: It has been observed that most individuals are hasty when it comes to upgrade or update their Windows systems to mitigate any adversary actions. Henceforth, a system vulnerability detector and scanner should be in place to audit and verify the system and network based vulnerabilities (if exist) to rectify the misconfigurations and mitigate any prominent threats to the individual or organization. Description: The above problem statement envisions a blue team approach to identify and map potential vulnerabilities of a Windows OS subsystem to better secure and mitigate against various threats (System Level and Network Level). Expected Solution: • The problem statement should result in a solution which can provide possible vulnerabilities of the underlined Windows OS • The AV/EDR friendly solution should have an agent-less mechanism to find the vulnerabilities and must be able to search and crawl for the related available open-source exploits and their patches • Some of the key information at the system level that must be promptly identified by the proposed solution should fall under the following categories: ? System Information: ? Basic OS info ? DotNet versions ? Providers registered for AMSI ? Registered antivirus (via WMI) ? Classic and Advanced audit policy settings present in registry keys ? Auto run executable/scripts/programs ? Standard and Non-standard firewall rules ? Windows Defender settings ? User and machine personal certificate files ? Current environment PATH folders, environment variables and SDDL information ? Lists files/folders. By default, lists users' downloads, documents, and desktop folders ? Information about a file (version information, AMSIProvidersProviders registered for AMSI) ? Installed hotfixses (via WMI) ? Installed products via the registry ? Local Group Policy settings applied to the machine/local users ? Non-empty local groups, displays all groups ? Local users, whether they're active/disabled ? All Microsoft updates (via COM, WMI) ? NTLM authentication settings ? Saved RDP connections stored in the registry ? Current incoming RDP sessions ? Remote Desktop Server/Client Settings ? Secure Boot configuration ? Sysmon configuration from the registry ? UAC system policies via the registry ? Windows Defender settings (including exclusion locations) ? Searches PowerShell console history files for sensitive regex matches ? Network Information: ? Lists the current ARP table and adapter information ? DNS cache entries (via WMI) ? Windows network profiles ? Network shares exposed by the machine ? Current TCP and UDP connections and their associated processes and services ? Current RPC endpoints mapped ? Open ports status • Additionally, the underlined solution should have the capability to provide information at the network level that must fall under the following categories: ? System interface connectors ? LLDP / CDP connections (to infrastructure devices) ? Attached network vectors (systems connected within the VLAN) ? And the capability to formulate network diagram using these information • Should be able to work with latest Windows 10/11 builds • The proposed solution should be able to consolidate its findings into a report file (pdf and/or html format)
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: It has been observed that most individuals are hasty when it comes
+                                        to
+                                        upgrade or update their Windows systems to mitigate any adversary actions.
+                                        Henceforth, a system vulnerability detector and scanner should be in place to
+                                        audit
+                                        and verify the system and network based vulnerabilities (if exist) to rectify
+                                        the
+                                        misconfigurations and mitigate any prominent threats to the individual or
+                                        organization. Description: The above problem statement envisions a blue team
+                                        approach to identify and map potential vulnerabilities of a Windows OS subsystem
+                                        to
+                                        better secure and mitigate against various threats (System Level and Network
+                                        Level).
+                                        Expected Solution: • The problem statement should result in a solution which can
+                                        provide possible vulnerabilities of the underlined Windows OS • The AV/EDR
+                                        friendly
+                                        solution should have an agent-less mechanism to find the vulnerabilities and
+                                        must be
+                                        able to search and crawl for the related available open-source exploits and
+                                        their
+                                        patches • Some of the key information at the system level that must be promptly
+                                        identified by the proposed solution should fall under the following categories:
+                                        ?
+                                        System Information: ? Basic OS info ? DotNet versions ? Providers registered for
+                                        AMSI ? Registered antivirus (via WMI) ? Classic and Advanced audit policy
+                                        settings
+                                        present in registry keys ? Auto run executable/scripts/programs ? Standard and
+                                        Non-standard firewall rules ? Windows Defender settings ? User and machine
+                                        personal
+                                        certificate files ? Current environment PATH folders, environment variables and
+                                        SDDL
+                                        information ? Lists files/folders. By default, lists users' downloads,
+                                        documents,
+                                        and desktop folders ? Information about a file (version information,
+                                        AMSIProvidersProviders registered for AMSI) ? Installed hotfixses (via WMI) ?
+                                        Installed products via the registry ? Local Group Policy settings applied to the
+                                        machine/local users ? Non-empty local groups, displays all groups ? Local users,
+                                        whether they're active/disabled ? All Microsoft updates (via COM, WMI) ? NTLM
+                                        authentication settings ? Saved RDP connections stored in the registry ? Current
+                                        incoming RDP sessions ? Remote Desktop Server/Client Settings ? Secure Boot
+                                        configuration ? Sysmon configuration from the registry ? UAC system policies via
+                                        the
+                                        registry ? Windows Defender settings (including exclusion locations) ? Searches
+                                        PowerShell console history files for sensitive regex matches ? Network
+                                        Information:
+                                        ? Lists the current ARP table and adapter information ? DNS cache entries (via
+                                        WMI)
+                                        ? Windows network profiles ? Network shares exposed by the machine ? Current TCP
+                                        and
+                                        UDP connections and their associated processes and services ? Current RPC
+                                        endpoints
+                                        mapped ? Open ports status • Additionally, the underlined solution should have
+                                        the
+                                        capability to provide information at the network level that must fall under the
+                                        following categories: ? System interface connectors ? LLDP / CDP connections (to
+                                        infrastructure devices) ? Attached network vectors (systems connected within the
+                                        VLAN) ? And the capability to formulate network diagram using these information
+                                        •
+                                        Should be able to work with latest Windows 10/11 builds • The proposed solution
+                                        should be able to consolidate its findings into a report file (pdf and/or html
+                                        format)</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1684
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Blockchain & Cybersecurity
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    10
+                            <tr id="ps10" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps10')">
+                                <td class="px-6 py-4 sno">
+                                    HV10
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     AI-Driven Crop Disease Prediction and Management System
                                 </td>
-                                <td class="px-6 py-4">
-                                    Background: Crop diseases can devastate yields, leading to significant financial losses for farmers. Early detection and timely intervention are crucial for effective management. Description: Develop an AI-driven system that analyzes crop images and environmental data to predict potential disease outbreaks. This system will provide farmers with actionable insights and treatment recommendations to mitigate risks. Expected Solution: A mobile and web-based application that utilizes machine learning algorithms to identify crop diseases and suggest preventive measures and treatments based on real-time data.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Crop diseases can devastate yields, leading to significant financial
+                                        losses for farmers. Early detection and timely intervention are crucial for
+                                        effective management. Description: Develop an AI-driven system that analyzes
+                                        crop
+                                        images and environmental data to predict potential disease outbreaks. This
+                                        system
+                                        will provide farmers with actionable insights and treatment recommendations to
+                                        mitigate risks. Expected Solution: A mobile and web-based application that
+                                        utilizes
+                                        machine learning algorithms to identify crop diseases and suggest preventive
+                                        measures and treatments based on real-time data.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1638
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Agriculture, FoodTech & Rural Development
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    11
+                            <tr id="ps11" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps11')">
+                                <td class="px-6 py-4 sno">
+                                    HV11
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">
-                                    Ideas focused on the intelligent use of resources for transforming and advancements of technology with combining the artificial intelligence to explore more various sources and get valuable insights.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Ideas focused on the intelligent use of resources for transforming and
+                                        advancements
+                                        of technology with combining the artificial intelligence to explore more various
+                                        sources and get valuable insights.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1600
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Smart Automation
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    12
+                            <tr id="ps12" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps12')">
+                                <td class="px-6 py-4 sno">
+                                    HV12
                                 </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">
-                                    Ideas focused on the intelligent use of resources for transforming and advancements of technology with combining the artificial intelligence to explore more various sources and get valuable insights.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Ideas focused on the intelligent use of resources for transforming and
+                                        advancements
+                                        of technology with combining the artificial intelligence to explore more various
+                                        sources and get valuable insights.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1540
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Smart Automation
                                 </td>
                             </tr>
-                            <tr class=" border-b"></tr>
-                                <td class="px-6 py-4">
-                                    12
+                            <tr id="ps13" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps13')">
+                                <td class="px-6 py-4 sno">
+                                    HV13
                                 </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">
-                                    Ideas focused on the intelligent use of resources for transforming and advancements of technology with combining the artificial intelligence to explore more various sources and get valuable insights.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Innovative ideas that help manage and generate renewable /sustainable sources
+                                        more
+                                        efficiently.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1540
-                                </td>
-                                <td class="px-6 py-4">
-                                    Smart Automation
-                                </td>
-                            </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    13
-                                </td>
-                                <td
-                                    class="px-6 py-4">
-                                    Student Innovation
-                                </td>
-                                <td class="px-6 py-4">
-                                    Innovative ideas that help manage and generate renewable /sustainable sources more efficiently.
-                                </td>
-                                <td class="px-6 py-4">
-                                    SIH1590
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Renewable / Sustainable Energy
                                 </td>
                             </tr>
-                            <tr class=" border-b">
-                                <td class="px-6 py-4">
-                                    14
+                            <tr id="ps14" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps14')">
+                                <td class="px-6 py-4 sno">
+                                    HV14
                                 </td>
-                                <td
-                                    class="px-6 py-4">
+                                <td class="px-6 py-4 title">
                                     Student Innovation
                                 </td>
-                                <td class="px-6 py-4">
-                                    A solution/idea that can boost the current situation of the tourism industries including hotels, travel and others.
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        A solution/idea that can boost the current situation of the tourism industries
+                                        including hotels, travel and others.</div>
                                 </td>
-                                <td class="px-6 py-4">
-                                    SIH1591
-                                </td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4 pstheme">
                                     Renewable / Sustainable Energy
                                 </td>
                             </tr>
+                            <tr id="ps15" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps15')">
+                                <td class="px-6 py-4 sno">
+                                    HV15
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    A smart AI based solution for traffic management on routes with heavy traffic from different directions, with real-time monitoring and adaptation of traffic light timings
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Urban areas often face significant traffic congestion, especially at intersections where multiple routes converge. Traditional traffic management systems rely on pre-set traffic light timings, which may not adapt well to fluctuating traffic conditions. This can lead to increased waiting times, fuel consumption, and emissions. Description: An AI-based traffic management system can dynamically adjust traffic light timings based on real-time traffic data, improving traffic flow and reducing congestion. Expected Solution: Problem statement is to develop a smart, AI-based traffic management system that can monitor traffic conditions in real-time and adapt traffic light timings accordingly. The system should be capable of handling heavy traffic from multiple directions and optimizing traffic flow to minimize delays and improve overall efficiency.</div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps16" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps16')">
+                                <td class="px-6 py-4 sno">
+                                    HV16
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    App for Deaf And Mute and sign language-English/Gujarati converter
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: “Inclusivity” is the motto of Education department, Government of Gujarat. Opportunity for all is the new slogan and The Indian Government has come up with Indian Sign Language. There has been lot of work in done in American sign language and focusing on interpretation in English. Majority schools in India adopt local language. In Gujarat, the deaf and mute students would be learning Gujarati by sign language. There are two general methods of deaf education are manualism and oralism..The students learn at school but at home if they want to practice material in Digital form is in limited form especially considering Indian Sign Language and Gujarati as local language. Detailed Description: The proposed comprehensive Mobile Application aims to address the key challenges faced in learning beyond classroom by deaf and mute students. The key features of the application include: Interpretation of Alphabets and numbers in Gujarati: Explaining the alphabets and numbers in Gujarati. The students first should learn and then should get writing pad to practice the writing of alphabets and numbers. Words and Sentences: Explaining the basic words starting from each Gujarati alphabet for example ? –???. Writing Exercises based on this Mathematics : Tables. Basic calculation Sum, Subtract, Multiplication, division in Gujarati. Writing problems for assessment of learning. Science : Prepare learning of science principles to sign language tutorials and writing exercises based on this. Conversion of Gujarati sentences to Sign Language and vice versa: If some Gujarati news/ articles are fed, they should be converted to sign language Conversion of speech to sign Language and vice versa: If some Gujarati conversation/addressing is taking place, they should be converted to sign language Data Analytics : Report card of the student to assess his/her learning of Mathematics and Science The application will cater to various users, including teachers, students, parents and HR(company). By integrating all these functions into a single Application , the application will address the lack of resources and bridge of communication gap. Teachers: Get a platform for teaching and can give repeated exercises to fine tune students with Mathematics and science. . Students: Learning platform where they can learn at their own pace and do the exercises. Parents: Helping aid for parents who do not know sign language. HR: Inclusivity is part of company policy also. While interviewing speech to text and text to speech will be helpful. Expected Solution: The implementation of this comprehensive Mobile application is expected to yield significant positive outcomes: Learning of Basic Mathematics and Science: Establishment of a unified platform where all relevant data is stored, reducing fragmentation and improving data accessibility. Increased Communication: Enhanced transparency in tracking progress and outcomes of various projects, facilitating better oversight and accountability. Better Assessment of learning: More effective allocation and utilization of resources, leading to improved outcomes for research and innovation projects. Including specially abled to mainstream : Conversion of text to sign language, speech to sign language and vice versa will narrow down the communication gap that arises due to non understanding of sign language. In summary, the proposed Mobile application aims to create a more efficient and supportive environment for learning to deaf and mute students in Gujarat. By addressing the current challenges and leveraging modern technology, the application will significantly enhance the learning ability of specially abled students.</div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Education
+                                </td>
+                            </tr>
+                            <tr id="ps17" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps17')">
+                                <td class="px-6 py-4 sno">
+                                    HV17
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Online monitoring of Unauthorized construction across the city
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        MCD is working on monitoring of unauthorized construction across th ecity. A viable and low cost solution is required e.g. Drone based surveys of swathes of land/areas as per defined time intervals will help real-time detection of unauthorized construction
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Robotics and Drones
+                                </td>
+                            </tr>
+                            <tr id="ps18" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps18')">
+                                <td class="px-6 py-4 sno">
+                                    HV18
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Online real-time survey and monitoring of water bodies in Delhi
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Technological solution for real-time survey and monitoring of water bodies in Delhi is one of the critical areas for rejuvenation of these water bodies
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Miscellaneous
+                                </td>
+                            </tr>
+                            <tr id="ps19" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps19')">
+                                <td class="px-6 py-4 sno">
+                                    HV19
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Development of a non-electrical device for tracking the movement of the sun for movement of the solar panels, increasing their efficiency.
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Solar panels are most efficient when they are directly facing the sun. However, the sun’s position changes throughout the day and across seasons, which can reduce the amount of sunlight that fixed solar panels receive. Description: Traditional solar tracking systems often rely on electrical components and motors, which can be costly and require maintenance. A non-electrical tracking system offers a sustainable and low-maintenance alternative to enhance the efficiency of solar panels. Expected Solution: The problem statement is to develop a cost-effective, non-electrical device that can accurately track the sun’s movement and adjust the orientation of solar panels to maintain optimal exposure. This device should be reliable, easy to install, and capable of operating without external power sources.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Renewable / Sustainable Energy
+                                </td>
+                            </tr>
+                            <tr id="ps20" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps20')">
+                                <td class="px-6 py-4 sno">
+                                    HV20
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Development of an alternative technology to check blockage of blood vessels (an alternative to conventional angiography).
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Angiography is a common medical imaging technique used to visualize the inside of blood vessels and detect blockages. Description: However, typically medical tests like radionuclide angiography involve the use of radioactive contrast agents, which can pose risks to patients, including radiation exposure and allergic reactions. There is a growing need for safer, non-invasive alternatives that can provide accurate diagnostics without these risks. Expected Solution: The problem statement is to develop a cost-effective, non-invasive technology that can accurately detect blockages in blood vessels without the use of radioactive materials. This technology should be suitable for widespread clinical use and provide reliable results comparable to conventional angiography.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    MedTech / BioTech / HealthTech
+                                </td>
+                            </tr>
+                            <tr id="ps21" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps21')">
+                                <td class="px-6 py-4 sno">
+                                    HV21
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Smart Irrigation System for Precision Farming
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Water scarcity is a major challenge in agriculture, leading to inefficient water use and reduced crop yields. Traditional irrigation methods often result in overuse or underuse of water. Description: Develop a smart irrigation system that utilizes sensors and IoT technology to monitor soil moisture levels and weather conditions. This system will provide real-time data to farmers, enabling them to make informed decisions on irrigation scheduling, thus optimizing water usage and enhancing crop yield. Expected Solution: A smart irrigation module integrated with moisture sensors and a mobile application to provide farmers with timely irrigation alerts and recommendations based on real-time data.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Agriculture, FoodTech & Rural Development
+                                </td>
+                            </tr>
+                            <tr id="ps22" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps22')">
+                                <td class="px-6 py-4 sno">
+                                    HV22
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Affordable, Sustainable, and User-friendly Solutions for Semen Dose Storage and Distribution
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: lndia has emerged as leading milk producer country in the world, however productivity of dairy animals is very low. To improve the productivity of animals a major focus area is to breed these animals using semen from high genetic merit bulls through Artificial lnsemination (Al). Al enables farmers to access the best bull (male) genetics. Farmers can improve the production, health traits, fertility and longevity of their dairy cattle by using a balanced approach to breeding. Animal health is also improved through the use of Al. Description: For Al, the semen is inseminated into the female by placing a portion of it either in a collected or diluted form into the cervix or uterus by mechanical methods at the proper time and under most hygienic conditions. Ensuring the integrity of the cold chain from Semen Production centres to the farmer's destination, where semen is utilized for artificial insemination, is crucial for the effective functioning of the Al delivery system in lndia. Semen doses are currently stored and transported using liquid nitrogen and specialized containers. However, significant losses of liquid nitrogen occur during storage and transportation, leading to escalated costs for maintaining the cold chain. The cost of liquid nitrogen itself is an issue. Mishandling of liquid nitrogen poses potential health hazards. The bulky and heavy nature of liquid nitrogen storage containers necessitates considerable resou rces for transportation. Expected solution: . There is a need to explore and promote alternative, cost-effective, and long-lasting methods for the storage and transportation of semen doses . The design, material, type of insulation of storage containers can also help in cost effectiveness, reduction in losses, compactness and ease of carrying to facilitate efficient distribution.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Agriculture, FoodTech & Rural Development
+                                </td>
+                            </tr>
+                            <tr id="ps23" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps23')">
+                                <td class="px-6 py-4 sno">
+                                    HV23
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Developing innovative solution for efficient management of waste and conversion to valuable products, Waste to Energy- waste recycling
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Management of solid waste has been one of the key problem in most of the cities around the world. The failure is evident from burgeoning growth of landfill site into mountain of MSW. Waste management accounts for a comparatively very high share of national GHG emissions in several countries worldwide. Emissions of methane following the disposal of waste in landfill account for a large share of GHG emissions from waste management. Description: With increasing pressure of development and urbanization, the need for efficient municipal service delivery is also growing rapidly, which the municipal bodies are very often unable to cope with. This is true in case of solid waste disposal and management as well. The main objectives of solid waste management are to reduce the amount of waste that ends up in landfills, promote recycling, and minimize the negative effects of waste on the environment and human health Expected Solution: Developing Community based solution for collection and recycling of solid waste management for developing into Net Zero waste communities. Digital solution for tracking the waste generation to waste recycling giving the effective tracking mechanism to utilities to collect, account and manage waste. Developing local solution for recycling of waste by Torrefaction of Municipal Solid Waste (MSW) Pellets converting it into valuable product to get bioenergy Innovative solution for waste management to reduce LFG and Collecting and Treating Landfill Gas (LFG) and used as a renewable energy resource
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Clean & Green Technology
+                                </td>
+                            </tr>
+                            <tr id="ps24" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps24')">
+                                <td class="px-6 py-4 sno">
+                                    HV24
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    To develop an Artificial Intelligence (AI) based model for electricity demand projection including peak demand projection for Delhi Power system
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: The load profile of power requirement in NCT of Delhi is highly peculiar. We are witnessing huge load variations during the winter and summer months and also during day and night during the same 24-hour window. This causes imbalance in matching the requisite power purchase with the electricity demand. Description: The peak load in Delhi touched 8300 MW this summer while the minimum load during winters goes as low as 2000 MW. The peak during the summer months also occurs twice i.e. first during the day time at about 15:30 hrs and second time in night hours after 23:00 hrs. Further, the solar generation comes during the day time and wanes by the evening hours thereby lending a Duck-curve effect. Solar plants have been allowed +/- 15% variation by CERC. Further, there is uneven load growth in the city, the upcoming areas are witnessing huge load growth while the developed areas are having the lower organic load growth. In addition to that the load curve in Delhi is highly peaky in nature due to the fact that most of the load is domestic and commercial load while industrial load is minimal. Here it may be taken note that while in other States, industrial load which is 24 x 7 in nature lends stability to the overall load curve of the State. Further, in Delhi agricultural load is minimal. In bigger States, having considerable agricultural load, the supply on agricultural feeders is normally given when ample power is available at cheaper rates, especially during early morning hours/ night hours, which in -turn provides stability to the State' Transmission and Distribution network and also balances power purchase stipulation. Most of the Long Term power is available RTC (Round the Clock) and Slot-wise power is more expensive. Expected Solution: An Artificial Intelligence based model be developed with suitable compensation methodology to factor the weather effects (like temperature humidity, and wind speed, rains/showers), public holidays/ weekly holidays, natural load growth, and real estate development.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps25" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps25')">
+                                <td class="px-6 py-4 sno">
+                                    HV25
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Mobile App for Direct Market Access for Farmers
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Farmers often face challenges in accessing markets, leading to lower income due to middlemen. This gap restricts their ability to sell produce at fair prices. Description: Create a mobile application that connects farmers directly with consumers and retailers. The app should include features for listing produce, negotiating prices, and managing transactions, thereby reducing dependence on intermediaries. Expected Solution: A user-friendly mobile platform that enables farmers to showcase their products and connect with buyers directly, enhancing their income potential.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Agriculture, FoodTech & Rural Development
+                                </td>
+                            </tr>
+                            <tr id="ps26" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps26')">
+                                <td class="px-6 py-4 sno">
+                                    HV26
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    AI-Driven Crop Disease Prediction and Management System
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Crop diseases can devastate yields, leading to significant financial losses for farmers. Early detection and timely intervention are crucial for effective management. Description: Develop an AI-driven system that analyzes crop images and environmental data to predict potential disease outbreaks. This system will provide farmers with actionable insights and treatment recommendations to mitigate risks. Expected Solution: A mobile and web-based application that utilizes machine learning algorithms to identify crop diseases and suggest preventive measures and treatments based on real-time data.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Agriculture, FoodTech & Rural Development
+                                </td>
+                            </tr>
+                            <tr id="ps27" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps27')">
+                                <td class="px-6 py-4 sno">
+                                    HV27
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Early Warning System for Glacial Lake Outburst Floods (GLOFs)
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Glacial Lake Outburst Floods (GLOFs) occur when the dam containing a glacial lake fails, releasing large volumes of water suddenly and causing catastrophic downstream flooding. Climate change is increasing the number and size of glacial lakes, heightening the risk of GLOFs. Curent monitoring and prediction methods can be improved with advanced technologies like remote sensing, sensors installed near glacial lakes and machine learning. • Description: The aim is to develop a remote sensing and/or sensor-based Early Warning System (EWS) for GLOFs by utilizing remote sensing data, network of IoT sensors and advanced data analytics. The system will continuously monitor and identify critical changes in lake size, water level, temperature, sudden water flow, dam stability and ground movement etc. around glacial lakes. The machine learning algorithms will analyse the information to detect early signs of potential outbursts. This approach will significantly enhance the capability to predict and respond to GLOFs, improving safety, reducing economic losses, and contributing to resilient infrastructure planning in glacial regions. • Expected Solution: A Sensor which can be installed in glacial lake area, or a predictive model that significantly improves the Early Warning System ability for GLOFs, providing critical lead time for evacuation and mitigation efforts.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Disaster Management
+                                </td>
+                            </tr>
+                            <tr id="ps28" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps28')">
+                                <td class="px-6 py-4 sno">
+                                    HV28
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Microphone array-based direction of arrival for gunshot detection
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: The Army of many developed countries has their own gunshot detector system which would alert the troop about the direction from where gun shot has been fired so that troop can take preventive measure to safeguard their soldiers • Description: The system consists of number of omnidirectional microphones preferably six. The output of microphone will be fed to the analog to digital converter and then this signal is fed to the FPGA . Inside FPGA, each channel will be filtered using Bandpass filter so as to limit the band to approx. 3Khz. After this sound classification and localization algorithm will deduce the direction from where the bullet has been fired and display the result on a Graphical LCD. • Expected Solution: An FPGA based solution with suitable algorithm for classification and localization of sound. The final result will be displayed on Graphic LCD
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Miscellaneous
+                                </td>
+                            </tr>
+                            <tr id="ps29" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps29')">
+                                <td class="px-6 py-4 sno">
+                                    HV29
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Determining expert relevance with respect to interview board subject and candidates’ area of expertise
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defence conducts interview for recommending candidates under recruitment, assessment and for sponsorship to acquire higher qualification. Description: The process of conducting an interview comprises of selection of board members i.e. experts from DRDO, industry, academia, etc. It is a challenge to manually match profile of subject experts w.r.t. interview board subject and candidates’ area of expertise. Expected Solution: The solution shall be able to provide a matching score for experts whose domain matches w.r.t. interview board subject and candidates area of expertise and thereafter should be able to predict suitability of expert for a particular interview board through a relevancy score. To arrive on the relevancy score for an expert the system should be able to determine a profile score for each selected expert w.r.t. profile of candidates to be interviewed.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps30" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps30')">
+                                <td class="px-6 py-4 sno">
+                                    HV30
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Development of a versatile and fast algorithm for the optimal ship routing
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Most of the goods are transported around the world by shipping which relies heavily on fossil fuels for powering. Given the expenditure of the shipping industry on the fuel, a main objective of a shipping company is to optimize the ship route for the least fuel consumption. Depending on the type and purpose of the voyage, it is also desirable to optimize several other parameters such as, the travel time, passenger comfort and route safety, to avoid any damage to the ship, cargo, crew and passengers. Optimization of each of these parameters serves a purpose. For instance, an energy efficient route may not be safe in terms of weather. Therefore, to avoid loss of life and property, route weather safety needs to be considered. An application suggesting the optimal route based on the chosen set of optimal parameters for any voyage between two ports in the Indian Ocean, will immensely benefit the Indian shipping industry. Description: At the heart of any optimal ship routing application lies the optimization algorithm. Although scientific literature is available on various methods of optimizing the ship routes, given the commercial potential, there are no applications available publicly which can be customized for the Indian Ocean region. The optimization methods reported in literature range in complexity, computation time, versatility, etc. Various factors, such as, the forcings (surface winds, currents and waves), design of the ship and ship drift characteristics, impact the ship’s motion at sea. The optimal route must be continually evolving because the weather conditions keep changing as a ship proceeds on its voyage. Therefore, it is crucial to choose a suitable optimization method that can optimize several parameters for a range of ships (with varying type, dimensions, drift characteristics of a ship) and develop an algorithm to return an optimal route within a reasonable computational time. The algorithm can optimize for the voyage time and safety to begin with but with a scope for addition of more optimization parameters. To get an idea of the problem, please visit: https://www.youtube.com/watch?v=ct9v-mQgYqE ii) https://www.youtube.com/watch?v=wCTdHRTWtNI Expected Solution: Identification of a versatile optimization method and development of a reasonably fast algorithm, preferably written in an open-source programming language such as Python
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Transportation & Logistics
+                                </td>
+                            </tr>
+                            <tr id="ps31" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps31')">
+                                <td class="px-6 py-4 sno">
+                                    HV31
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Farmers Disease Diagnostic/Reporting Portal - Mobile Portal Al Based
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background- Agricultural productivity and food security are heavily dependent on the health of crops and livestock. Farmers, especially in remote or resource-limited areas, often face challenges in diagnosing and reporting diseases that affect their livestock and crops. Early diagnosis and timely reporting are crucial for effective disease management and prevention of widespread outbreaks. Description - A mobile portal powered by Artificial lntelligence (Al) for disease diagnosis and reporting can revolutionize how farmers manage animal and plant health. This portal enables farmers to use their smartphones to access diagnostic tools, report symptoms, and receive actionable advice. Al algorithms can analyze reported data to provide accurate diagnoses and suggest appropriate treatments or interventions. This technology can empower farmers with the knowledge and tools to manage diseases more effectively, ensuring the health and productivity of their farms. lntegrate Al-based software with existing NDLM to allow farmers to submit images and descriptions of disease signs and symptoms. The Al will generate suspected disease/condition reports with preventive measures and send alerts to veterinarians for appropriate action (Al-based software, Mobile application). Expected Outcomes . Enhanced Disease Diagnosis: . Timely Reporting and lntervention: . lncreased Access to Expert Knowledge: . lmproved Farm Productivity. Data Collection and Analysis: Cost-Effective DiseaseManagement: Empowerment and Education of Farmers: lntegration with Existing Surveillance Systems . Community Engagement and Support: Sustainable Agriculture Practices
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Agriculture, FoodTech & Rural Development
+                                </td>
+                            </tr>
+                            <tr id="ps32" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps32')">
+                                <td class="px-6 py-4 sno">
+                                    HV32
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Few Shot Language Agnostic Key Word Spotting system (FSLAKWS) for audio files.
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Description: The problem statement envisages development of Few Shot Language Agnostic Key Word Spotting system (FSLAKWS) system which would be able to localize and classify the presence of keywords of Interest in a variable duration audio file. The system to be able to function at high performance when very few (Few Shot) examples per keyword are given for training. The key features of the system would be as mentioned below: - (a) The system should be language agnostic (b) The system should be able to handle audio files at various sample rates (8k-48k). (c) The system should be able to upgrade to additional keywords. Performance Criteria: For creating a system with Few Shot capabilities, the participants may need to do pre-training of their model on a large corpus. This corpus should be obtained by the participants themselves. We will provide few examples per keyword at the training time during the conduct of the hackathon. The participants will be judged on a separate test set having the same keywords as the train set. The performance would be ascertained on the following: (a) Metric (b) Latency and throughput of the responses. (c) Smaller model size.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps33" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps33')">
+                                <td class="px-6 py-4 sno">
+                                    HV33
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Forecasting Future Water Requirements and Assessing Storage Capacities in Reservoirs.
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background Water resources are fundamental to sustaining human life, agriculture, industry and ecosystem. Accurate forecasting of future water requirements along with the assessment of current storage capacities are crucial for effective water resources management and planning. With growing population. The domestic, Industrial, Agricultural and ecological demands increase, which in turn leads to strain on existing water Infrastructure. Description Analyzing the storage capabilities of the reservoirs in the country is essential. It is also essential for the policy makers to plan for a sustainable water resource management. The challenge involves in creating a predictive model, that can accurately forecast the future water requirements and evaluate the current and future storage capabilities. The model must integrate various data sources, including historic water usage, climate projections, population growth trends, and agricultural practices. It should also account for variability in climate conditions, demographic shifts and changes in land use. A strategic planning and decision-making support system can to provide clear insights into future water demand and storage needs, by identifying potential risks. Expected Solution It is expected to assess the existing and future storage capabilities, identify the anticipated conditions and impact on the storage capabilities. Identify the potential gaps where additional storage and infrastructure capabilities are needed. It is also required to create a scenario taking into account the extreme weather events and population demands. The Policy makers should have an insight of water management issues for providing sustainable water management. A strategy should be evolved for enhancing water storage capacities, optimizing water usage and mitigating identifying risks.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Education
+                                </td>
+                            </tr>
+                            <tr id="ps34" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps34')">
+                                <td class="px-6 py-4 sno">
+                                    HV34
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Real-time Ganga river water quality forecasting using AI- enabled DSS, satellite data, IoT, and dynamic models.
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Namami Gange is a flagship program of the government of India for the rejuvenation of Ganga and its tributaries. NMCG Authority order of Oct 2016 States the the pollution in River Ganga and its tributaries shall also be monitored by use of satellite and other remote sensing technologies. As pupulations increase in the Ganga Basin, there are growing water demands, and hence higher levels of sewage flow into rivers of the Ganga Basin from both rural and urban areas. Excess untreated water entering the Ganga river systems transports high organic and pathogen loads. Their use generates high levels of pollution with significant organic loads, with very high Biochemical Oxygen Demand. This will inevitably lower Dissolved Oxygen (DO) concentrations in rivers, thereby threatening fisheries and biodiversity (maacroinvertebrates). At the same time, the high sewage discharges affect the suitability of the river for bathing due to the higher levels ofpathogens in rivers. With climate change increasing the frequency and intensity of rainfall events, this is becoming a significant problem, threatening the water quality and ecology of Ganga river system. The societal impact of providing forecast data that is easily and openly accessible will change how we see and value our rivers and enable citizens to make better decisions based on better data for our health and the health of the rivers of Ganga Basin. Description: An AI-enabled decision support system may be developed to Integrate data from multiple sources such as satellite data, IOT-based sensor-generated data, intrumental meteorological measurements, in-situ flow, water quality observations, and miltiple hydrological & hydrodynamic models to work together in real-time to generate historical patterns of behaviour and water quality forecasts for Ganga River. Model source code can be seamlessly incorporated into a cloud platform infrastructure. The models may receive daily inputs of current and forecasted precipitation and temperature data that drive real-time observations, may be stored in a time series database and automated workflows continually check observations against forecasts. The observed data may act as ground truth and help fine-tune the model's parameters and predictions. This dynamic calibration process may endure the system adapts to changing environmental conditions. The entire workflow may operate within a Software as a Service (SaaS) platform, making it accessible to a wide range of users and organization. Users can access the daily water quality forecasts through an intuitive and user-friendly interface, allowing them to set up early warning alert and conduct scenario modeling. The overall strategy for the forecasting scheme synthesizes satellite data collected across the basin or watershed which is them linked to a model chain to generate flow and water quality data at key locations down a Ganga river system. The daily time series of flow and water quality data can then be displayed online or via a mobile app, to show recent and past changes in water quality. The system should forecast future flows and water quality, up to 3-5 days ahead. This then provides a warning system for operational managers who might want to switch supplies if a significant pollution pulse is moving down the river system. Also, rather like weather forecasts, a probability can be assigned to any forecast, so that users can evaluate predictions in terms of a familiar risk assessment. Regulatory agencies can make use of the system and App to help validate environment agency sampling at locations of interest that are not formal sample points for compliance, and for tracking pollution incidents that occur along river systems. Expected Solution: 1. To prepare an AI-enabled decision support system with focus on predictive and adaptive (query based) solutions. A mobile app is envised that utilizes satelliter data to procduce real-time forecasts of flow and water quality using hydrological & hydro dynamical models at multiple locations in a river network. a. To create historical simulations of flow and water quality, as well as a three to 5 day ahead forecast at any location down the Ganga River, and to provide a tool that scientists, managers, or the general public might use. b. Dashboard may show the following options i. Ganga River set up a map with options for plotting flow, nitrate, ammonia, phosphorus, DO,BOD,Fecal Coliform and; etc. ii. It may show a time series plot of paramenters such as rainfall, flow, DO, BOD, Fecal Coliform and nitrate for the Ganga River over the past 10 days and a forecast ahead of 3 days. 2. Alrets can be sent out to decision makers providing notice of an extreme event, e.g., pollution discharge, combined sewer pverflows discharges, high pathogen events, or a pulse of high nitrate water moving down the river system. 3. DSS-based post-project monitoring to validate the benefit of government investments.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps35" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps35')">
+                                <td class="px-6 py-4 sno">
+                                    HV35
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Gamification for Rural Planning using Drone land survey maps and GIS data.
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background 1. Article 243G of the Constitution of India acknowledges Panchayats as institutions of local self-government and mandates them to prepare plans for economic development and social justice. As local government, Gram Panchayats (GPs) are responsible for delivery of basic services to local citizens and address the vulnerabilities of poor and marginalized ones. This can only be achieved through implementation of well thought out plans through efficient and responsible utilization of available resources. 2. An efficient and robust planning process as part of GP’s core functioning becomes necessary. GP development plan should ideally match people’s needs and priorities with the available resources. It should be prepared through a fair, inclusive, transparent, and participatory process. The focus should be on local development issues, local perception of need and priority, local analysis of problems and solutions, and local resources management all within a collective local vision. 3. Gram Panchayat Development Plans (GPDP) to be prepared for effective implementation of flagship schemes/ programmes on subjects of National importance. The formulation process of Panchayat Development Plans (PDP) must be comprehensive and based on participatory process, which inter alia involves the full convergence of the schemes of Central and State Governments related to 29 subjects listed in the Eleventh Schedule of the Constitution. 4. A need was felt to take forward the Sustainable Development Goals (SDGs) up to the last mile, i.e., up to the GP level, leveraging a wide network and strong institutional mechanism of third tier of Government including Traditional Bodies of non-part IX areas. Accordingly, the Ministry has adopted a thematic approach aggregating 17 SDGs into 9 broad themes for Localization of Sustainable Development Goals (LSDGs) at grassroot level through Panchayats adopting ‘Whole of Government and Whole of Society Approach’ and the PDPs will be prepared adopting thematic approach to achieve localization for SDGs in rural India. 29 Subjects defined in the Eleventh Schedule 1. Agriculture 2. Poverty all eviation programme 3. Land Improvement. 4. Education 5. Minor Irrigation 6. Vocational education 7. Animal Husbandary 8. Adult and non-formal education 9. Fisheries 10. Libraries 11. Social Forestery 12. Cultural activites 13. Minor forest produce 14. Markets and fairs 15. Small scale industires 16. Health and Sanitation 17. Khadi, village and cottage industries 18. Family welfare 19. Rural Housing 20. Women and child development 21. Drinking water 22. Social Welfare 23. Fuel and fodder 24. Welfare of the weaker sections 25. Roads 26. Public distribution system 27. Rural electrification 28. Maintenance of community assets 29. Non-Conventional energy Description Design a game for a Hackathon event that enhances participant engagement, fosters planning, and develops a better Panchayat/Village development The objective is to create a gamified experience that can help villagers/youth, etc. to prepare a village development plan. A simulated environment is needed to develop a self-sustained village development plan game where the user can plan various facilities in the village using the resources available. It is envisaged to develop ‘Farmville’ kind of a game for a village. Developers can use any game development platform to create the game for android platform. SVAMITVA Scheme GIS data maps of villages will be provided as input. Key Components to include for the game app: Budget Estimate: Functionality to add the estimate for each type of activity for which planning is required. For example, if new/extension road needs to be constructed for the gram panchayat / village, it should allow us to add the budget for road feature planning. Work Model: Development of a game for taking up works under Gram Panchayat Development Plan (GPDP) such as road construction, drainage construction, establishment of toilets, streetlights, etc. The basic steps of the Game broadly involve: - i. Select the village, where development plan is required by the villagers. ii. Based on the input received such as the village building footprints, road network, etc., develop the 3D visualization of the existing village for which development plan is required. iii. Superimpose the SVAMITVA Scheme maps/drone data to have a real-world visualization of the village. iv. Developmental activities would provide the list of activities that a plan would be composed. For example, a new road laying for a stretch in the village, laying of drainage pipeline for the village, drinking water pipeline for all the villagers, etc. v. There is resource envelope/money available with Panchayats under different Schemes for different types of developmental work. Once the development activity as in point iv above is planned in the game, the amount shall be deducted from the Resource Envelope allocated to Panchayats. vi. Generate a more realistic 3D model with other existing features. vii. Arrive at a tentative estimate for the planning being performed. viii. Ability to provide a walkthrough of the 3D platform. ix. Ability to provide a fly-through of the 3D platform. A few examples of probable use cases are indicated below: - Case1: Road laying activity • The player selects the start point and endpoint with intermediate points wherever required for road construction. It needs to validate that any road laying activity may not be a duplicate road construction plan. • The player can select the type of the road, width of the road; height of the road etc., based on the selection, the road should be built in the game. Based on changing the parameters like type of road from BT road to cement road, it should be regenerated. • Once the road construction is done by the player, cost of construction should be auto generated. • Ability to measure the road dimensions and road shoulders. Case 2: Streetlight • The player selects the road where streetlight is required. The streetlight is added based on the game artefacts. • The player has option to check the light illumination based on the time of the day for best location for streetlight along the road. Option to change the type of lamp, based on the lamp change – the changes to reflect on the game for best results. • Once finalized, the cost estimate of the street lighting to be generated. Case 3: Ability to measure the building height and width of each side. • The player selects the village for developmental activity. • The player is presented with a 3D simulated environment representing selected village. • The player can measure the height of building and all sides to create the dimension of the house along with roof type area. Expected Solution Panchayats have been the fulcrum of local self-government since ancient times, exercising both executive and judicial powers over village-level issues. We plan to develop a virtual 3D environment-based gaming platform for village/Panchayat development plan activities. • A detailed game outlining the work model. • Prototypes or mock-ups of the game platform/interface. • Documentation on implementation guidelines and best practices for integrating the gamification system into the Hackathon event. 1. Article 243G of the Constitution of India acknowledges Panchayats as institutions of local self-government and mandates them to prepare plans for economic development and social justice. As local government, Gram Panchayats (GPs) are responsible for delivery of basic services to local citizens and address the vulnerabilities of poor and marginalized ones. This can only be achieved through implementation of well thought out plans through efficient and responsible utilization of available resources. 2. An efficient and robust planning process as part of GP’s core functioning becomes necessary. GP development plan should ideally match people’s needs and priorities with the available resources. It should be prepared through a fair, inclusive, transparent, and participatory process. The focus should be on local development issues, local perception of need and priority, local analysis of problems and solutions, and local resources management all within a collective local vision. 3. Gram Panchayat Development Plans (GPDP) to be prepared for effective implementation of flagship schemes/ programmes on subjects of National importance. The formulation process of Panchayat Development Plans (PDP) must be comprehensive and based on participatory process, which inter alia involves the full convergence of the schemes of Central and State Governments related to 29 subjects listed in the Eleventh Schedule of the Constitution. 4. A need was felt to take forward the Sustainable Development Goals (SDGs) up to the last mile, i.e., up to the GP level, leveraging a wide network and strong institutional mechanism of third tier of Government including Traditional Bodies of non-part IX areas. Accordingly, the Ministry has adopted a thematic approach aggregating 17 SDGs into 9 broad themes for Localization of Sustainable Development Goals (LSDGs) at grassroot level through Panchayats adopting ‘Whole of Government and Whole of Society Approach’ and the PDPs will be prepared adopting thematic approach to achieve localization for SDGs in rural India. 29 Subjects defined in the Eleventh Schedule Description Design a game for a Hackathon event that enhances participant engagement, fosters planning, and develops a better Panchayat/Village development The objective is to create a gamified experience that can help villagers/youth, etc. to prepare a village development plan. A simulated environment is needed to develop a self- sustained village development plan game where the user can plan various facilities in the village using the resources available. It is envisaged to develop ‘Farmville’ kind of a game for a village. Developers can use any game development platform to create the game for android platform. SVAMITVA Scheme GIS data maps of villages will be provided as input. Key Components to include for the game app: Budget Estimate: Functionality to add the estimate for each type of activity for which planning is required. For example, if new/extension road needs to be constructed for the gram panchayat / village, it should allow us to add the budget for road feature planning. Work Model: Development of a game for taking up works under Gram Panchayat Development Plan (GPDP) such as road construction, drainage construction, establishment of toilets, streetlights, etc. The basic steps of the Game broadly involve: - i. Select the village, where development plan is required by the villagers. ii. Based on the input received such as the village building footprints, road network, etc., develop the 3D visualization of the existing village for which development plan is required. iii. Superimpose the SVAMITVA Scheme maps/drone data to have a real-world visualization of the village. iv. Developmental activities would provide the list of activities that a plan would be composed. For example, a new road laying for a stretch in the village, laying of drainage pipeline for the village, drinking water pipeline for all the villagers, etc. v. There is resource envelope/money available with Panchayats under different Schemes for different types of developmental work. Once the development activity as in point iv above is planned in the game, the amount shall be deducted from the Resource Envelope allocated to Panchayats. vi. Generate a more realistic 3D model with other existing features. vii. Arrive at a tentative estimate for the planning being performed. viii. Ability to provide a walkthrough of the 3D platform. ix. Ability to provide a fly-through of the 3D platform. A few examples of probable use cases are indicated below: - Case1: Road laying activity • The player selects the start point and endpoint with intermediate points wherever required for road construction. It needs to validate that any road laying activity may not be a duplicate road construction plan. • The player can select the type of the road, width of the road; height of the road etc., based on the selection, the road should be built in the game. Based on changing the parameters like type of road from BT road to cement road, it should be regenerated. • Once the road construction is done by the player, cost of construction should be auto generated. • Ability to measure the road dimensions and road shoulders. Case 2: Streetlight • The player selects the road where streetlight is required. The streetlight is added based on the game artefacts. • The player has option to check the light illumination based on the time of the day for best location for streetlight along the road. Option to change the type of lamp, based on the lamp change – the changes to reflect on the game for best results. • Once finalized, the cost estimate of the street lighting to be generated. Case 3: Ability to measure the building height and width of each side. • The player selects the village for developmental activity. • The player is presented with a 3D simulated environment representing selected village. • The player can measure the height of building and all sides to create the dimension of the house along with roof type area. Expected Solution Panchayats have been the fulcrum of local self-government since ancient times, exercising both executive and judicial powers over village-level issues. We plan to develop a virtual 3D environment-based gaming platform for village/Panchayat development plan activities. • A detailed game outlining the work model. • Prototypes or mock-ups of the game platform/interface. • Documentation on implementation guidelines and best practices for integrating the gamification system into the Hackathon event. These are few of the cases described by this concept. Students should try to model maximum topics and also have a comprehensive guided documentation which leads to development of a super fine game.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Robotics and Drones
+                                </td>
+                            </tr>
+                            <tr id="ps36" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps36')">
+                                <td class="px-6 py-4 sno">
+                                    HV36
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Prediction of Aluminium wire rod physical properties through AI, ML or any modern technique for better productivity and quality control.
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background: Auminium wire rod is produced in Wire rod mills of cast house, where an aluminium cast bar of trapezoidal cross section having area 3437 sq. mm is first casted and then further rolled by 15 nos. of stand in series to gradually reduce the cross section to obtain final 9.5 mm diameter rod. Description: The casting parameters that affects the wire rod properties like UTS, Elongation and Conductivity are dependent on chemical composition, casting temp. Cooling water temp. , Casting speed, Cast bar entry temperature at rolling mill, Emulsion temperature and pressure at rolling mill, Emulsion concentration and finally rod quench water pressure. These parameters are dynamic in nature and any deviation on one of the above affects the final rod properties. Expected Solution: Use of AI, ML or any modern technique to analyze those parameters and control them to effectively obtain the final desired parameters of the Wire rod produced.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Miscellaneous
+                                </td>
+                            </tr>
+                            <tr id="ps37" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps37')">
+                                <td class="px-6 py-4 sno">
+                                    HV37
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    SolarQuest: Innovate to Capture More Sunlight and Boost Energy
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        As the global shift towards renewable energy intensifies, solar trackers, which adjust solar panels to follow the sun’s path, are crucial for maximizing solar energy efficiency. Consequently, it is essential to design controllers for solar trackers that can optimize the angle of incidence between solar panels and sunlight. This tracking of the sun’s trajectory can be done accurately by managing at least one mechanical axis (azimuth, elevation, roll). As a preliminary step, a simulation-based control system, using tools such as SimscapeTM MultibodyTM and Simulink®, can be designed with a single-axis control based on location-specific solar paths. The workflow would involve integrating an electrical motor model (developed using tools like SimscapeTM ElectricalTM), designing a PID control system, developing an algorithm for optimal axis positioning, and validating the system through simulation. In the subsequent steps after validation, the motor control system can be deployed on low-cost hardware (e.g., using Simulink® Support Package for Arduino) to demonstrate a prototype of this solar tracking mechanism. References: 1. Pre- Requisite: https://matlabacademy.mathworks.com/details/control-design-onramp-with-simulink/controls?s_eid=PSM_33221 2. Optimizing Solar Array Performance Using MPPT (https://in.mathworks.com/videos/optimizing-solar-array-performance-using-mppt-1657880084126.html?s_tid=srchtitle_site_search_8_solar%20tracker) 3. Pre- Requisite: Power Systems Simulation Onramp - CHAPTER 4 (System Integration) (https://matlabacademy.mathworks.com/details/power-systems-simulation-onramp/orps?s_eid=PSM_33222) 4. Using the Worm and Gear Constraint Block - Solar Tracker (https://in.mathworks.com/help/sm/ug/using-the-worm-and-gear-constraint-block-solar-tracker.html) 5. Program the Device from Simulink | Arduino Light Meter Project, Part 2 (https://in.mathworks.com/videos/arduino-light-meter-project-part-2-program-the-device-from-simulink-106500.html) Require MATLAB® and Simulink® PRODUCT LICENSE for SIH 2024, please send an email to 'ageethag@mathworks.com'.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Miscellaneous
+                                </td>
+                            </tr>
+                            <tr id="ps38" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps38')">
+                                <td class="px-6 py-4 sno">
+                                    HV38
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    SAR Image Colorization for Comprehensive Insight using Deep Learning Model (h)
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Description: Synthetic Aperture Radar (SAR) imagery is rich in structural and textural information but lacks the intuitive appeal of color, which can provide more comprehensive insights for space borne applications. SAR image colorization using Deep Learning (DL) models offers a transformative approach for enhancing the interpretability of monochromatic SAR image data. The project aims to develop an innovative solution to colorize grayscale SAR images for enhanced interpretation and analysis of feature targets. A novel DL model needs to be designed and trained using pairs of SAR and Optical images, minimizing a loss function that captures the difference between predicted and actual color images. The participants are challenged to create a DL system that can accurately predict and apply colors to SAR images, making surface features more distinguishable and interpretable. Challenge: The challenges require innovative approaches in data pre-processing, DL model design, and evaluation methodologies to develop effective and reliable SAR image colorization solutions. Usage: The goal is to improve the usability of SAR data in applications like geological studies and environmental monitoring by providing more intuitive and informative visual representations. Users: Remote Sensing Image Analysts Available Solutions (if Yes, reasons for not using them): Existing Deep Learning models have been proposed and used but their performance is not satisfactory. Desired Outcome: DL based SAR Image Colorization Software
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Space Technology
+                                </td>
+                            </tr>
+                            <tr id="ps39" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps39')">
+                                <td class="px-6 py-4 sno">
+                                    HV39
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    AI based frame interpolation, video generation and display system for WMS services
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Description: Develop a system that automatically generates videos using frame interpolation techniques given a WMS service that provides satellite imagery at regular intervals (e.g. every 30 minutes) and a bounding box. The AI based video generator should interpolate frames (for e.g. at every minute between 30 minutes) for smooth visualization of moving objects. This video should be displayed on an interactive browser based map (using openlayers or leaflet). Challenge: Frame interpolation of objects such as clouds which are deformable and even appear disappear between frames. Overlaying videos on web based map visualization libraries is straightforward on commercial libraries such as mapbox. Developing the same functionality for modern open-source webgis libraries will be an added effort. Usage: Can be implemented for visualization on VEDAS/MOSDAC/BHUVAN Users: WebGIS application developers and the end users of these applications. Available Solutions (if Yes, reasons for not using them): Individual components are available, comprehensive and proven solution does not exist. Desired Outcome: The tool should be compatible with and OGC compatible WMS service. Should demonstrate video visualization overlay on an OpenLayers (> version 6) web map. Bonus points for utilisation of on-device GPUs/NPUs available in modern desktop/mobile devices. (not mandatory)
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps40" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps40')">
+                                <td class="px-6 py-4 sno">
+                                    HV40
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Development of map-matching algorithm using AI-ML techniques to distinguish vehicular movement on highway and service road
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Description: Algorithm development using AI-ML techniques to distinguish vehicular movement on highway and service road. Challenge: The algorithm shall be able to distinguish the vehicle movement on highway or service road even if intermittent GNSS position is not available or large bias is observed in GNSS coordinates. Usage: To support the applications such as GNSS-based tolling Users: Vehicles moving on highways Available Solutions (if Yes, reasons for not using them): Not available as a comprehensive solution Desired Outcome: The developed algorithm shall provide the following: 1. Use the coarse GNSS position of the moving vehicle and plot the movement on a map 2. Using map-matching techniques, identify the movement of vehicle on the highway or the service road 3. Apply AI-ML techniques to improvement map-matching performance.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Smart Automation
+                                </td>
+                            </tr>
+                            <tr id="ps41" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps41')">
+                                <td class="px-6 py-4 sno">
+                                    HV41
+                                </td>
+                                <td class="px-6 py-4 title">
+                                    Recovery of Deleted Data and Associated Metadata from XFS and Btrfs Filesystems
+                                </td>
+                                <td class="px-6 py-4 desc">
+                                    <div class="h-36 overflow-hidden">
+                                        Background : Digital evidence has become increasingly crucial in forensic investigations. The recovery of deleted data from storage devices is essential for reconstructing timelines, identifying suspects, and uncovering critical information. Traditional file systems like FAT and NTFS have been extensively studied, and tools for recovering deleted data from them are relatively mature. However, modern file systems like XFS and Btrfs, designed for performance and reliability, employ complex data structures that pose signifycant challenges for data recovery. Forensic investigations often involve recovering various file types, including documents files, log files, and system files. These files contain valuable information about system activities, user behaviour, and potential criminal activities. The ability to recover deleted files along with their complete metadata, such as creation, access, modification, and deletion timestamps, is crucial for establishing timelines and corroborating evidence. Detailed Description :XFS and Btrfs file systems offer advanced features like journaling, copy-on-write, and efficient data allocation. While these features enhance system performance and data integrity, they also complicate the process of recovering deleted data. When a file is deleted in these file systems, the data itself is not immediately erased; instead, the file system marks the allocated blocks as free for reuse. This delayed overwriting of data presents an opportunity for recovery, but it also requires specialized techniques to extract and analyse the deleted data. Moreover, recovering accurate metadata associated with deleted files is equally challenging. Metadata is critical for establishing the context of the recovered data and determining its relevance to the investigation. Extracting metadata from XFS and Btrfs file systems requires a deep understanding of their internal structures and data allocation mechanisms. Expected Solution: An ideal solution would be a comprehensive data recovery technique specifically designed for XFS and Btrfs file systems. These techniques should able to: 1. Efficiently recover deleted data: Develop algorithms and techniques to identify and extract deleted files from the complex data structures of XFS and Btrfs. 2. Support a wide range of file types: Recover Text-Based Document Formats(doc,docx, rtf, pdf, txt, odt, html, xml, ppt, odp, xls, ods, log, csv, tsv, txt, conf, ini, cfg etc), archives file(zip, tar, rar, iso, rpm, deb etc), Image-Based Document Formats(jpg, jpeg, png, gif, tif etc), executables binaries(.elf, .so, .a, exe, dll, bat, cmd) scripts files(ps, ps1, sh, bash, zsh, py etc), database file(.db etc) and other relevant data formats. 3. Extract complete metadata: Recover accurate creation, access, modification, and deletion timestamps, file names, and other essential metadata associated with deleted files. 4. Provide user-friendly interface: Offer an intuitive interface (GUI/CLI) for easily navigate recovered data and generate reports. 5. Ensure data integrity: Implement robust data validation and verification mechanisms to maintain the integrity of recovered data.
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 pstheme">
+                                    Blockchain & Cybersecurity
+                                </td>
+                            </tr>
+
+
+
+
+
                         </tbody>
                     </table>
                 </div>
 
-                <!-- <tr class=" border-b">
+                <!-- <tr id="ps01" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps01')">
                     <td class="px-6 py-4">
                         1
                     </td>
@@ -371,7 +993,7 @@
                         Smart Automation
                     </td>
                 </tr>
-                <tr class=" border-b">
+                <tr id="ps01" class="border-b cursor-pointer hover:bg-slate-900" onclick="showDesc('ps01')">
                     <td class="px-6 py-4">
                         39
                     </td>
@@ -409,6 +1031,51 @@
             </div>
         </div>
     </footer>
+
+    <div id="psModel" class="h-screen w-screen hidden bg-gray-700/80 fixed top-0 pt-5 overflow-y-scroll">
+        <div class="bg-black text-sm border-[#00c0b8] border-2 shadow-lg rounded-lg p-8 max-w-4xl mx-auto">
+
+            <h4 class="text-2xl font-semibold text-indigo-500 mb-5">Problem Statement Details</h4>
+            <button onclick="closeModel()" class="float-right text-white -top-16 relative">
+                X
+            </button>
+            <div class="flex w-full text-white ">
+                <div class="w-80 p-3 border-gray-600 border-2">
+                    Problem Statement ID
+                </div>
+                <div id="modesno" class="w-full p-3 border-gray-600 border-2">
+                    1
+                </div>
+            </div>
+            <div class="flex w-full text-white ">
+                <div class="w-80 p-3 border-gray-600 border-2">
+                    Problem Statement Title
+                </div>
+                <div id="modelpstitle" class="w-full p-3 border-gray-600 border-2">
+                    SIH2023
+                </div>
+            </div>
+            <div class="flex w-full text-white ">
+                <div class="w-80 p-3 border-gray-600 border-2">
+                    Description
+                </div>
+                <div id="modeldesc" class="w-full p-3 border-gray-600 border-2">
+                    SIH2023
+                </div>
+            </div>
+            <div class="flex w-full text-white ">
+                <div class="w-80 p-3 border-gray-600 border-2">
+                    Theme
+                </div>
+                <div id="modeltheme" class="w-full p-3 border-gray-600 border-2">
+                    SIH2023
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>
