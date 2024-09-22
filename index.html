@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
     <title>HackVerse || Tulas 2024 Hackathon</title>
+
+    
+    <style>
+        @keyframes marquee {
+            0% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .animate-marquee {
+            display: flex;
+            animation: marquee 30s linear infinite;
+            /* Adjust duration to control speed */
+        }
+    </style>
 </head>
 
 <body class="bg-cover bg-center h-screen bg-fixed" style="background-image: url('/assets/blue-background.png');">
-    <!-- <div  style="background-image: url('/assets/robot-hero-background.png');" class="flex items-center justify-center h-full bg-blacks bg-opacity-60s">
-        <div class="text-center text-white p-8">
-            <h1 class="text-5xl font-bold mb-4">Welcome to the Hackathon</h1>
-            <p class="text-lg mb-6">Join us for a 24-hour coding event filled with innovation, creativity, and fun!</p>
-            <a href="#register"
-                class="inline-block px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold rounded-lg shadow-lg transition transform hover:scale-110">
-                Register Now
-            </a>
-        </div>
-    </div> -->
-
-    <div class="relative h-screen flex items-center justify-center bg-black overflow-hidden bg-cover">
+    
+    <div class="relative sm:h-screen h-auto pb-10 flex items-center justify-center bg-black overflow-hidden bg-cover">
         <!-- Background Grid -->
         <div class="absolute inset-0">
             <div class="grid grid-cols-4 grid-rows-4 gap-2 opacity-10">
@@ -29,65 +36,59 @@
                 <div class="bg-gradient-to-b from-blue-800 to-purple-900 rounded-lg"></div>
                 <div class="bg-gradient-to-t from-teal-900 via-blue-800 to-purple-800 rounded-lg"></div>
                 <div class="bg-gradient-to-r from-pink-800 via-purple-700 to-indigo-900 rounded-lg"></div>
-                <!-- Repeat or vary the above for more grid elements -->
             </div>
         </div>
-
-        <!-- Sci-Fi Elements -->
-        <!-- <div class="absolute inset-0 flex justify-between items-center p-10 opacity-70">
-            <div class="w-1/3 h-full bg-no-repeat bg-center bg-contain"
-                style="background-image: url('assets/code.png');"></div>
-            <div class="w-1/3 h-full bg-no-repeat bg-center bg-contain"
-                style="background-image: url('assets/blue-background.png');"></div>
-        </div> -->
-
+    
         <!-- Main Content -->
-        <div class="relatisve z-20 text-center text-white absolute">
-            <h1
-                class="md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-[#C02425] to-[#F0CB35]">
-                <span class="md:text-9xl text-6xl">HackVerse</span></br> 2024 @Tula's​
+        <div class="relative z-20 text-center text-white px-5 w-screen">
+            <h1 class="md:text-5xl text-3xl mt-20 font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-[#C02425] to-[#F0CB35]">
+                <span class="md:text-8xl text-6xl">HackVerse</span><br> 2024 @Tula's
             </h1>
-            <p class="mt-4 text-xl tracking-wider">
-                Push the limits of innovation in a futuristic challenge.
-            </p>
-            <a target="_blank" 
-                href="https://docs.google.com/forms/d/e/1FAIpQLScpJjZSPFaNE5EQpclTUpfAU3w4CX-BMoFX97XRdZQCKehcqQ/viewform?usp=sf_link">
-                <button 
-                    class="mt-8 px-8 py-3 bg-gradient-to-r from-blue-500 to-[#00ffc3] text-white font-bold rounded-full hover:shadow-lg hover:scale-105 transform transition">
+            <p class="mt-4 text-xl tracking-wider">Push the limits of innovation in a futuristic challenge.</p>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScpJjZSPFaNE5EQpclTUpfAU3w4CX-BMoFX97XRdZQCKehcqQ/viewform?usp=sf_link">
+                <button class="mt-8 px-8 py-3 bg-gradient-to-r from-blue-500 to-[#00ffc3] text-white font-bold rounded-full hover:shadow-lg hover:scale-105 transform transition">
                     Register Now
-                </button></a>
-                <div class="lg:flex gap-10 text-left">
-                    <div>
-                        <div class="mt-20 mb-5 text-center lg:text-left">Title Sponsor</div>
-                        <img class="md:w-[450px] w-full md:px-0 px-10 mx-auto" src="/assets/userc-logo.png" alt="User C Logo">
-                    </div>
-                    <div>
-                        <div class="mt-20 mb-5 text-center lg:text-left">Our Industry Partners</div>
-                        <div class="flex flex-wrap gap-2 md:gap-10 justify-center lg:justify-start">
-                            <img class="md:px-0 px-10 mx-auto h-20" src="/assets/augmend-logo.png" alt="Augmend Logo">
-                            <img class="md:px-0 px-10 mx-auto h-20" src="/assets/ExcelR_logo.png" alt="ExcelR Logo">
-                        </div>
+                </button>
+            </a>
+    
+            <div class="w-full mt-10 mb-5">
+                <div class="md:w-max w-full m-auto">
+                    <div class="text-center lg:text-left">Title Sponsor:</div>
+                    <img class="md:w-[450px] w-full md:px-0 px-10 mx-auto" src="/assets/userc-logo.png" alt="User C Logo">
+                </div>
+            </div>
+    
+            <div class="lg:flex gap-10 w-max mx-auto text-left mt-3">
+                <div>
+                    <div class="text-center lg:text-left">Financial Sponsor:</div>
+                    <img class="md:px-0 px-10 mx-auto h-16" src="/assets/ExcelR_logo.png" alt="ExcelR Logo">
+                </div>
+                <div>
+                    <div class="text-center lg:text-left">Technical Sponsor:</div>
+                    <div class="sm:flex flex-wrap gap-2 md:gap-10 justify-center lg:justify-start">
+                        <img class="md:px-0 px-10 mx-auto h-16" src="/assets/augmend-logo.png" alt="Augmend Logo">
+                        <img class="md:px-0 px-10 mx-auto h-16 mt-5 sm:mt-0" src="/assets/IBM.png" alt="IBM Logo">
                     </div>
                 </div>
-                
+            </div>
         </div>
-
+    
         <div class=" h-20 w-full absolute top-0 z-30 p-10 flex space-x-2">
             <img class="sm:h-14 h-8" src="/assets/logo/web-logo.png" alt="">
             <img class="sm:h-14 h-8" src="/assets/logo/nac_logo.png" alt="">
             <img class="sm:h-14 h-8" src="/assets/logo/nba_logo.png" alt="">
         </div>
+    
         <!-- Bottom Sci-Fi Accent -->
-        <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black via-transparent to-transparent">
-        </div>
-
+        <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+    
+        <!-- Background Video -->
         <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-            <source
-                src="assets/background-video.mp4"
-                type="video/mp4" />
+            <source src="assets/background-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
     </div>
+    
 
 
 
@@ -100,6 +101,63 @@
         <img class="h-20 w-max mx-auto" src="/assets/logo/iic_logo.jpg" alt="IIC Logo">
         <img class="h-20 w-max mx-auto" src="/assets/logo/ieee_logo.jpg" alt="IEEE Logo">
     </section>
+    <section class="py-20 w-full bg-white">
+        <h1 class="text-center text-2xl font-bold mb-5">Participating Colleges</h1>
+        <div class="overflow-hidden">
+            <div class="flex items-center space-x-10 animate-marquee">
+                <img class="h-20" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/IIT_Kanpur_Logo.svg/300px-IIT_Kanpur_Logo.svg.png" alt="SIH Logo">
+                <img class="h-20" src="/assets/colleges/Chandigarh-University-Logo.png" alt="MOC Logo">
+                <img class="h-20" src="/assets/colleges/logo-formerly-known-as-UETR.png" alt="AICTE Logo">
+                <img class="h-20" src="/assets/colleges/uttranchal-university.png" alt="MOE Logo">
+                <img class="h-20" src="/assets/colleges/adgitm.jpg" alt="AWADH Logo">
+                <img class="h-20" src="/assets/colleges/silicon-university.png" alt="IIC Logo">
+                <img class="h-20" src="/assets/colleges/t_parul-university3698.jpg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/gbpiet.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/gits.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/iit_madras.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/cem_kolaghat.webp" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/piet.jpg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/iitr_logo.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/ims-gaziabad.jpg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/Logo-jiit.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/Alliance_University_Icon.svg.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/delhi_univ.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/cit.jpeg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/indraprashth.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/shiv_nadar.jpeg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/bennet.webp" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/sharda_univ.png" alt="IEEE Logo">
+                <!-- Duplicated logos for continuous effect -->
+                <img class="h-20" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/IIT_Kanpur_Logo.svg/300px-IIT_Kanpur_Logo.svg.png" alt="SIH Logo">
+                <img class="h-20" src="/assets/colleges/Chandigarh-University-Logo.png" alt="MOC Logo">
+                <img class="h-20" src="/assets/colleges/logo-formerly-known-as-UETR.png" alt="AICTE Logo">
+                <img class="h-20" src="/assets/colleges/uttranchal-university.png" alt="MOE Logo">
+                <img class="h-20" src="/assets/colleges/adgitm.jpg" alt="AWADH Logo">
+                <img class="h-20" src="/assets/colleges/silicon-university.png" alt="IIC Logo">
+                <img class="h-20" src="/assets/colleges/t_parul-university3698.jpg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/gbpiet.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/gits.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/iit_madras.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/cem_kolaghat.webp" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/piet.jpg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/iitr_logo.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/ims-gaziabad.jpg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/Logo-jiit.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/Alliance_University_Icon.svg.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/delhi_univ.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/cit.jpeg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/indraprashth.png" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/shiv_nadar.jpeg" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/bennet.webp" alt="IEEE Logo">
+                <img class="h-20" src="/assets/colleges/sharda_univ.png" alt="IEEE Logo">
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
 
     <section
         class="relative flex items-center justify-center  bg-gradient-to-r from-black/90 via-black/10 to-black/90 min-h-screen bg-cover bg-center bg-fixed"
